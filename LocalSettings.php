@@ -29,7 +29,8 @@ $wgSitename = "Testing";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:8080";
+// $wgServer = "http://localhost:8080";
+$wgServer = "https://probationmessenger.herokuapp.com/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -51,11 +52,11 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
-$wgDBtype = "mysql";
-$wgDBserver = "localhost:3306";
-$wgDBname = "my_wiki";
-$wgDBuser = "testing";
-$wgDBpassword = "Testing123";
+$wgDBtype = "postgrs";
+$wgDBserver = "postgres://ehtkllef:tAdV-crub6OiIzr2D8VHUg324qjkSjA_@lallah.db.elephantsql.com:5432/ehtkllef";
+$wgDBname = "ehtkllef";
+$wgDBuser = "ehtkllef";
+$wgDBpassword = "tAdV-crub6OiIzr2D8VHUg324qjkSjA_";
 
 # MySQL specific settings
 $wgDBprefix = "";
