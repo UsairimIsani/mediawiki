@@ -52,7 +52,7 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
-$wgDBtype = "postgrs";
+$wgDBtype = "postgres";
 $wgDBserver = "postgres://ehtkllef:tAdV-crub6OiIzr2D8VHUg324qjkSjA_@lallah.db.elephantsql.com:5432/ehtkllef";
 $wgDBname = "ehtkllef";
 $wgDBuser = "ehtkllef";
