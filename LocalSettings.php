@@ -29,7 +29,8 @@ $wgSitename = "Testing";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:8080";
+// $wgServer = "http://localhost:8080";
+$wgServer = "https://probationmessenger.herokuapp.com/";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
