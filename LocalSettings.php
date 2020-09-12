@@ -29,8 +29,7 @@ $wgSitename = "Testing";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-// $wgServer = "http://localhost:8080";
-$wgServer = "https://probationmessenger.herokuapp.com/";
+$wgServer = "http://localhost:8080";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -52,11 +51,11 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
-$wgDBtype = "postgres";
-$wgDBserver = "postgres://ehtkllef:tAdV-crub6OiIzr2D8VHUg324qjkSjA_@lallah.db.elephantsql.com:5432/ehtkllef";
-$wgDBname = "ehtkllef";
-$wgDBuser = "ehtkllef";
-$wgDBpassword = "tAdV-crub6OiIzr2D8VHUg324qjkSjA_";
+$wgDBtype = "mysql";
+$wgDBserver = "sql12.freemysqlhosting.net";
+$wgDBname = "sql12365167";
+$wgDBuser = "sql12365167";
+$wgDBpassword = "yXJCwv6UkJ";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -80,7 +79,7 @@ $wgUseInstantCommons = false;
 # Periodically send a pingback to https://www.mediawiki.org/ with basic data
 # about this MediaWiki instance. The Wikimedia Foundation shares this data
 # with MediaWiki developers to help guide future development efforts.
-$wgPingback = false;
+$wgPingback = true;
 
 ## If you use ImageMagick (or any other shell command) on a
 ## Linux server, this will need to be set to the name of an
@@ -95,14 +94,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "c4ed3ab5612b712e418aa55fb6f345939eb62e24825bfeff7c1543e2e70a6d13";
+$wgSecretKey = "fd90151a60f9a30e0ec63e74529a2c09e81817aee128ae546667acf0bac5383d";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "544db66a122889ae";
+$wgUpgradeKey = "ba858ad52fe0ff9f";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
